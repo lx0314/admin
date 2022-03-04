@@ -7,7 +7,7 @@
         </div>
         <div style="float: left ;margin-left: 10px;">
           <h6 style="margin: 0">千一</h6>
-          <span>12345678900</span>
+          <span style="color: #cccccc;font-size: 12px">12345678900</span>
         </div>
       </div>
       <a href="#" style="line-height: 1px;display:inline-block;float: right;font-size: 30px;text-decoration: none;color: #5c636a;">...</a>
@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="boxb">
-      <span style="width: 30%;font-size: 8px;">
+      <span style="width: 30%;font-size: 8px;color: #cccccc;">
         修改进度
       </span>
       <div style="float: right;width: 70%">
@@ -70,7 +70,7 @@ export default {
       height: 30px;
       float: left;
       h6{
-        color: #5c636a;
+        color: #cccccc;
         margin: 0;
       }
       span{
