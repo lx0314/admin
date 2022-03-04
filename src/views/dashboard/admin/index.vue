@@ -6,10 +6,12 @@
 
     <el-row style="background:#fff;padding:16px 16px 0;margin-bottom:32px;">
       <el-col :xs="24" :sm="24" :lg="16">
+        <h3 style="margin-top: 0">医保统计</h3>
         <line-chart :chart-data="lineChartData" />
       </el-col>
       <el-col :xs="24" :sm="24" :lg="8">
-        <div class="chart-wrapper">
+        <div class="chart-wrapper" style="padding-top: 0;">
+          <h3 style="margin-top: 0;margin-bottom: 40px">医保统计</h3>
           <pie-chart />
         </div>
       </el-col>
@@ -32,19 +34,19 @@
         </div>
       </el-col>
     </el-row>-->
-
+    <h2>失败概率</h2>
     <el-row :gutter="8">
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
-        <todo-list />
+        <shibai />
       </el-col>
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
-        <todo-list />
+        <shibai />
       </el-col>
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
-        <todo-list />
+        <shibai />
       </el-col>
       <el-col :xs="{span: 24}" :sm="{span: 12}" :md="{span: 12}" :lg="{span: 6}" :xl="{span: 6}" style="margin-bottom:30px;">
-        <box-card />
+        <shibai />
       </el-col>
     </el-row>
   </div>
@@ -55,8 +57,7 @@ import GithubCorner from '@/components/GithubCorner'
 import PanelGroup from './components/PanelGroup'
 import LineChart from './components/LineChart'
 import PieChart from './components/PieChart'
-import TodoList from './components/TodoList'
-import BoxCard from './components/BoxCard'
+import shibai from './components/shibai'
 
 const lineChartData = {
   newVisitis: {
@@ -84,8 +85,7 @@ export default {
     PanelGroup,
     LineChart,
     PieChart,
-    TodoList,
-    BoxCard
+    shibai
   },
   data() {
     return {

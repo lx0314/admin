@@ -49,11 +49,6 @@ export default {
           trigger: 'item',
           formatter: '{a} <br/>{b} : {c} ({d}%)'
         },
-        legend: {
-          left: 'center',
-          bottom: '10',
-          data: ['Industries', 'Technology', 'Forex', 'Gold', 'Forecasts']
-        },
         series: [
           {
             name: 'WEEKLY WRITE ARTICLES',
@@ -62,11 +57,11 @@ export default {
             radius: [15, 95],
             center: ['50%', '38%'],
             data: [
-              { value: 320, name: 'Industries' },
-              { value: 240, name: 'Technology' },
-              { value: 149, name: 'Forex' },
-              { value: 100, name: 'Gold' },
-              { value: 59, name: 'Forecasts' }
+              { value: 320, name: '元素一' },
+              { value: 240, name: '元素二' },
+              { value: 149, name: '元素三' },
+              { value: 100, name: '元素四' },
+              { value: 59, name: '元素五' }
             ],
             animationEasing: 'cubicInOut',
             animationDuration: 2600
